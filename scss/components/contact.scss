@@ -1,0 +1,24 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 170px 0;
+    font-weight: 700;
+
+    &-slogan {
+        margin: 10px auto;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #ffa700;
+    }
+
+    &-phone {
+        margin: 10px auto;
+        font-size: 4rem;
+    }
+
+    &-address, &-email {
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+    }
+}

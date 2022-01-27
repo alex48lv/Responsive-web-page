@@ -1,0 +1,38 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #021c30;
+    color: white;
+}
+
+.content-bg {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #072b48;
+
+    @include media-breakpoint-down(lg) {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
+
+h2 {
+    margin-bottom: 60px;
+    padding-left: 30px;
+    width: 250px;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-transform: capitalize;
+    border-left: 3px solid #ffa700;
+}
+
+.blue-link {
+    font-size: .9rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0098c9;
+}

@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #032b4a;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &-dark &-nav .nav-link {
+        color: white;
+
+        &:hover, &:active, &:focus {
+            color: #ffa700;
+        }
+    }
+
+    .nav-item {
+        margin: 0 10px;
+    }
+
+    .nav-btn {
+        width: 110px;
+        height: 100px;
+        background-color: #ffa700;
+        border: 0;
+
+        &-span {
+            text-transform: uppercase;
+            font-weight: 900;
+            color: #380600;
+        }
+    }
+}
+
+.brand {
+    margin-right: 100px;
+    text-decoration: none;
+
+    &-name {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: white;
+    }
+}

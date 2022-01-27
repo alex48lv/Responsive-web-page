@@ -1,0 +1,22 @@
+.footer {
+    padding: 50px 0;
+    background-color: #032b4a;
+
+    &-social {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    &-icon {
+        width: 30px;
+    }
+
+    &-item + &-item {
+        margin-left: 30px;
+    }
+
+    &-copyright {
+        margin: auto 0;
+    }
+}

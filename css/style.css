@@ -11158,6 +11158,22 @@ h2, .h2 {
   color: #0098c9;
 }
 
+.brand {
+  margin-right: 100px;
+  text-decoration: none;
+}
+.brand-icon {
+  width: 30px;
+  height: 30px;
+  vertical-align: text-bottom;
+}
+.brand-name {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+}
+
 .navbar {
   background-color: #032b4a;
   text-transform: uppercase;
@@ -11168,6 +11184,9 @@ h2, .h2 {
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active, .navbar-dark .navbar-nav .nav-link:focus {
   color: #ffa700;
+}
+.navbar-collapse {
+  text-align: center;
 }
 .navbar .nav-item {
   margin: 0 10px;
@@ -11182,17 +11201,6 @@ h2, .h2 {
   text-transform: uppercase;
   font-weight: 900;
   color: #380600;
-}
-
-.brand {
-  margin-right: 100px;
-  text-decoration: none;
-}
-.brand-name {
-  text-transform: uppercase;
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: white;
 }
 
 .header {
@@ -11464,6 +11472,7 @@ h2, .h2 {
 .footer-social {
   display: flex;
   justify-content: space-between;
+  margin: 0;
   list-style: none;
 }
 .footer-icon {
@@ -11474,6 +11483,11 @@ h2, .h2 {
 }
 .footer-copyright {
   margin: auto 0;
+}
+
+.col-auto {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

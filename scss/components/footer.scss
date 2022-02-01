@@ -5,6 +5,7 @@
     &-social {
         display: flex;
         justify-content: space-between;
+        margin: 0;
         list-style: none;
     }
 
@@ -19,4 +20,9 @@
     &-copyright {
         margin: auto 0;
     }
+}
+
+.col-auto {
+    display: flex;
+    align-items: center;
 }

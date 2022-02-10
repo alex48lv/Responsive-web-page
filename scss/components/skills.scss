@@ -6,6 +6,10 @@
     border: 1px solid #425d72;
     border-radius: 0;
 
+    @media (max-width: 400px) {
+        width: 260px;
+    }
+
     &-row {
         display: flex;
         flex-direction: column;
@@ -30,6 +34,10 @@
         text-decoration: none;
         color: white;
         line-height: 1.2;
+
+        @media (max-width: 400px) {
+            margin-left: 10px;
+        }
     }
 
     &-header {
@@ -62,4 +70,8 @@
     margin-top: 80px;
     margin-bottom: -20px;
     text-align: end;
+
+    @media (max-width: 500px) {
+        margin-bottom: 10px;
+    }
 }

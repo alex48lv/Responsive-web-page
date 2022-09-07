@@ -1,3 +1,3 @@
 # kons
-test
-html + css
+Bootstrap. HTML + SCSS.
+Design taken from web
